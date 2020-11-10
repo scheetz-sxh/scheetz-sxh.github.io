@@ -1,31 +1,200 @@
 <!DOCTYPE html>
-<html>
-	<head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<meta charset="utf-8">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-		<script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-		<link rel="stylesheet" href="style.css">
+        <title> Jacob Scheetz | Home </title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="index.html" class="nav__logo">Jacob</a>
+                </div>
 
-		<title>Jacob Scheetz | Home</title>
-	</head><!-- End Header-->
-	
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-	<body>
-		<div class="box">
-			<img src="images/jake.png" alt="profile pic" class="box-img">
-			<h1> Jacob Scheetz</h1>
-			<h5> Senior Cyber Security Student - Cyber Security Analyst </h5>
-			<p> Hi! <br> My name is Jacob Scheetz, a Senior at the University of Dayton. I enjoy golf, football, coffee, exercising, and red teaming. I am also a regular participant in Capture the Flag Challlenges like  the National Cyber League where I was able to place in the top 130 students in the country in the Fall of 2020. I will also have my TryHackMe badge linked below that shows my global rank, and website rank! I am currently Security+ certified and studying to pursue further certifications in the Area of Penetration Testing and Digital Forensics. </p>
-			<script src="https://tryhackme.com/badge/218412"></script>
-			<ul>
-				<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-				<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-				<li><a href="#"><i class="fab fa-bitbucket"></i></a></li>
-				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-			</ul>
-		</div>
-	</body><!--End Body--> 
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Jacob</span><br>Cyber Security Student <br> @ the <br>University of Dayton</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/jacobscheetz/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://twitter.com/JakeScheetz98" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://github.com/scheetz-sxh" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/jake-final.png" alt="photoshopped-img">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/jake-round.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hello, I am Jacob</h2>
+                        <p class="about__text">I am currently a senior cyber security student at the University of Dayton. I enjoy golfing, coffee, programming, red teaming, football and exercise. I also regularly participate in Capture The Flag challenges; like the National Cyber League, where I was able to place 130th out of over 6,000 college students nationwide. Additionally, I hold the Security+ 501 certification and will be sitting for my C|EH certification in late 2020/early 2021. </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Below are my most prominent, generally applicable and proficient skills. However, since I do hold the most up to date Security+ certification I have verfiable knowledge and skills in: Access Control, Cyber Forensics, Network Enumertion, Network Security, Security Architecture, Protocol Security, Authentication and others. </p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-python bx-tada skills__icon'></i>
+                                <span class="skills__name">Python 2.7 & 3+</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-wifi bx-fade-down skills__icon'></i>
+                                <span class="skills__name">Web App Security</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript bx-fade-left skills__icon' ></i>
+                                <span class="skills__name">Javascript</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-tux bx-burst skills__icon'></i>
+                                <span class="skills__name">UNIX Systems</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Your message here..."></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Jacob</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/jacobscheetz/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/JakeScheetz98" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+        <!-- ==== BOX ICONS ===-->
+ 		<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    </body>
 </html>
